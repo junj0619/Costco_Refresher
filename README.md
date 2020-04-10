@@ -4,8 +4,10 @@ This is a Google Extension to search available delivery options on Costco grocer
 Steps to setup:
 
 1) Download and load Costco_Refresher extensions in your Chrome
+![](https://github.com/junj0619/Costco_Refresher/blob/master/img/Load%20Costco_Refresher%20Extension.png)
 
 2) Go to smtpjs.com to generate Encrypted SMTP credentials
+![](https://github.com/junj0619/Costco_Refresher/blob/master/img/Generate%20SMTP%20encryption.png)
 
 3) Put encrypted SMTP credentials into content.js file **SecureToken**
 
