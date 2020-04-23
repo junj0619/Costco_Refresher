@@ -24,9 +24,9 @@ function isDeliveryAvailable() {
 
 function sendEmail(option) {
   Email.send({
-    SecureToken: 'daf2156b-01bd-46ab-a190-f5f4c272459d',
-    To: 'JacyLiu20@gmail.com',
-    From: 'JacyLiu20@gmail.com',
+    SecureToken: 'YourSecureToken',
+    To: 'YourEmail@gmail.com',
+    From: 'YourEmail@gmail.com',
     Subject: 'Costco Delivery is available.',
     Body: '<html><h2>Costco Delivery is available.<h2>' + option + '</html>',
   }).then(
